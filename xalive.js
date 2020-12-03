@@ -4,7 +4,6 @@ const {spawnSync} = require('child_process');
 const Config = require('../config');
 
 const Language = require('../language');
-const Lang = Language.getString('system_stats');
 
 Asena.addCommand({pattern: 'xalive', fromMe: true, desc: Lang.XALIVE_DESC}, (async (message, match) => {
     await message.sendMessage(
