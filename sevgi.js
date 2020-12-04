@@ -2,7 +2,7 @@
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 
-Asena.addCommand({pattern: 'xalive', fromMe: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'sevgi', fromMe: true}, (async (message, match) => {
     return await message.sendMessage('_Seni_');
     
     function myfonction() { ... }
