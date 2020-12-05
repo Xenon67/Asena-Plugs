@@ -6,15 +6,14 @@ Asena.addCommand({pattern: 'sevgi', fromMe: true}, (async (message, match) => {
 
     return await message.sendMessage('_Seni_');
     
-    function myfonction() { ... }
-
-setTimeout(myfonction, 5000); 
+    function ../events() { ... }
+    setTimeout(../events, 5000); 
 
     return await message.sendMessage('_Çok_')
     
-    function myfonction() { ... }
+    function ../events() { ... }
 
-setTimeout(myfonction, 5000); 
+    setTimeout(.events, 5000); 
 
     return await message.sendMessage('_Seviyorum_')
     
