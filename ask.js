@@ -2,16 +2,16 @@
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 
-Asena.addCommand({pattern: 'sevgi', fromMe: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'ask', fromMe: true}, (async (message, match) => {
     
-    await message.sendMessage('_Seni_'); 
+    await message.sendMessage('*Seni*'); 
 
-setTimeout(myfonction, 5000); 
+setTimeout(ask, 2); 
  
-    await message.sendMessage('_Çok_') 
+    await message.sendMessage('*Çok*') 
 
-setTimeout(myfonction, 5000); 
+setTimeout(ask, 2); 
 
-    await message.sendMessage('_Seviyorum_')
+    await message.sendMessage('*Seviyorum*')
     
 }));
