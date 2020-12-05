@@ -5,12 +5,13 @@ Asena.addCommand({pattern: 'ask', fromMe: true}, (async (message, match) => {
     
     await message.sendMessage('*Seni*'); 
 
-setTimeout(ask, 2); 
- 
-    await message.sendMessage('*Çok*') 
+    var delayInMilliseconds = 1000;
+    setTimeout(function() {
+    await message.sendMessage('*Çok*')
 
-setTimeout(ask, 2); 
+}, delayInMilliseconds);
 
+    setTimeout(function() {
     await message.sendMessage('*Seviyorum*')
-    
+}, delayInMillisecondz);
 }));
